@@ -2,13 +2,21 @@
 
 @media (min-width: 768px) {
 
-    #menu-items-container {
-        display: flex;
+    #logo-container {
+        position: none;
     }
 
+    #hamburger-menu label {
+        display: none;
+    }
 
-    #logo-container a {
-        margin-left: 0;
+    #menu-items {
+        flex-direction: row;
+    }
+
+    #menu-items-container {
+        display: flex;
+        flex-direction: row;
     }
 
 }
