@@ -58,22 +58,7 @@ main {
     grid-template-columns: repeat(4, 1fr);
 }
 
-#spotify{
-    width: 30px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-#google{
-    width: 30px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-#youtube{
-    width: 30px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-#pocket{
+.hear-here{
     width: 30px;
     border-radius: 5px;
     cursor: pointer;
