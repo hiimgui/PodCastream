@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #16161a;
+}
+
+a {
+    text-decoration: none;
+    transition: .25s;
+}
+
+h1,
+h2,
+h3,
+a {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+p {
+    font-family: Rajdhani, sans-serif;
+    font-weight: 400;
+    color: #94a1b2;
+}

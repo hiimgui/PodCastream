@@ -1,0 +1,157 @@
+/* ====================== HEADER/NAV =========================================== */
+
+.parallax {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/header-parallax.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu-items-container {
+    display: none;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+#menu-items {
+    list-style: none;
+    display: flex;
+    padding: 1rem;
+}
+
+#menu-items li a{
+    margin: 0 1.5rem;
+    color: white;
+    font-weight: 600;
+}
+
+#menu-items li a:hover {
+    color: #7f5af0;
+}
+
+#login-button {
+    padding: .5rem 1rem;
+    color: white;
+    font-weight: 600;
+    background-color: #2cb67d;
+    border: 3px solid #010101;
+    border-radius: .3rem;
+    transition: .25s;
+}
+
+#login-button:hover {
+    background-color: #7f5af0;
+}
+
+#main-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#logo-container a{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#logo-container a:hover {
+    color: #7f5af0;
+}
+
+#logo {
+    width: 1.5rem;
+    margin-right: .5rem;
+}
+
+
+/* ====================== ARTICLES SECTION =========================================== */
+
+.podcast-section {
+    padding: 2rem 0;
+}
+
+.podcast-section h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.articles-container {
+    display: flex;
+    overflow: auto;
+}
+
+.card {
+    height: 20rem;
+    min-height: 300px;
+    width: 10rem;
+    min-width: 240px;
+    border: 1px solid;
+    margin: 0.5rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.card:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(1px 1px 50px black);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    margin: -2rem 1rem 2rem 1rem;
+}
+
+.card p {
+    margin: -1rem 1rem 1rem 1rem;
+}
+
+
+/* ====================== EMAIL CACHING SECTION =========================================== */
+
+.email-catching {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* ====================== CONTACT =========================================== */
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* ====================== FOOTER =========================================== */
+
+footer {
+    padding: 1.5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+footer h3 {
+    color: #7f5af0;
+}

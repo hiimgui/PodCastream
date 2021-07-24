@@ -1,0 +1,14 @@
+/* ====================== HEADER/NAV =========================================== */
+
+@media (min-width: 768px) {
+
+    #menu-items-container {
+        display: flex;
+    }
+
+
+    #logo-container a {
+        margin-left: 0;
+    }
+
+}
