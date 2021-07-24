@@ -16,7 +16,8 @@ a {
 h1,
 h2,
 h3,
-a {
+a,
+label {
     font-family: Montserrat, sans-serif;
     font-weight: 600;
     color: white;
