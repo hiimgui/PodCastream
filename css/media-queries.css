@@ -2,24 +2,13 @@
 
 @media (min-width: 768px) {
 
+    nav#main-navigation {
+        padding: 1rem 0;
+    }
+
     #hamburger-menu > label {
         display: none;
         margin-right: 0;
-    }
-
-    #menu-items {
-        flex-direction: row;
-        font-size: 1rem;
-    }
-
-    #menu-items li a {
-        font-size: .75rem;
-        margin: 0 1rem;
-    }
-
-    #menu-items li {
-        padding: 1rem 0;
-        margin: 0;
     }
 
     #menu-items-container {
@@ -29,13 +18,25 @@
         padding: 0 1rem;
         background: rgba(255, 255, 255, 0);
         width: 100%;
+        position: static;
     }
 
-    #main-navigation {
-        padding: 1.75rem 0;
+    #menu-items {
+        flex-direction: row;
+        font-size: 1rem;
     }
 
-    #login-button {
+    #menu-items li {
+        padding: 1rem 0;
+        margin: 0;
+    }
+
+    #menu-items li a {
+        font-size: .75rem;
+        margin: 0 1rem;
+    }
+
+    button#login-button {
         padding: .5rem 1.5rem;
         margin-right: 1rem;
     }
@@ -43,6 +44,10 @@
 
 
 @media (min-width: 1024px) {
+
+    #main-navigation {
+        padding: 1.5rem;
+    }
 
     #menu-items li a {
         font-size: 1rem;
