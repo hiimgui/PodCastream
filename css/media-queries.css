@@ -53,6 +53,43 @@
         font-size: 1rem;
     }
 }
+/* ====================== PODCAST-PAGES =========================================== */
+@media (min-width: 768px) {
+    .podcast-page {
+        flex-direction: row;
+        
+    }
+    .podcast-banner{
+        width: 40rem;
+    }
+
+    #logo-podcast{
+        width: 12rem;
+    }
+    .podcast-conteudo {
+    position: relative; 
+    top: 0;
+    padding: 0;
+    }   
+    .podcast-page{
+        align-items: flex-start;
+        padding: 8rem 0;
+    }
+    .podcast-conteudo p {
+        padding-right: 5rem;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    #logo-podcast{
+        width: 20rem;
+    }
+
+}
+
+
+
 
 
 /* ====================== ANIMATIONS =========================================== */
@@ -67,3 +104,4 @@
     0% { transform: translateY(-100%); }
     100% { transform: translateY(0%); }
 }
+
