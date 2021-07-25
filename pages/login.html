@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link css Tulio-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="../img/podcastream-black.svg" type="logo">
+    <!--Googlefonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Rajdhani&display=swap" rel="stylesheet">
+
+    <title>PodCastream | Inscreva-se</title>
+</head>
+
+<body>
+    <!--header parallax tulio-->
+
+        <nav id="main-navigation">
+  
+          <div id="logo-container">
+            <a href="../index.html"><img id="logo" src="../img/podcastream-white.svg" alt="logo"/>Podcastream</a>
+          </div>
+  
+            <div id="hamburger-menu">
+    
+                <input type="checkbox" id="menu-hamburger-checkbox" />
+                <label for="menu-hamburger-checkbox">&#9776;</label>
+    
+                <div id=menu-items-container>
+                    <ul id="menu-items">
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="../pages/podcast.html">Uma Página</a></li>
+                        <li><a href="">Trabalhe Conosco</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+        
+                    <button type="button" id="login-button" onclick="mudar_login()"><a href="../pages/login.html">Login &raquo;</a></button>
+                </div>
+            
+            </div>
+        </nav>
+    <main> <!--corpo form-->
+        <div class="login-background">
+        <div class="container">
+             <!--inicio form-->
+            <form action="" id="form_login">
+                <!--nome-->
+                <div>
+                    <label for="">Nome</label>
+                    <input type="text" placeholder="Nome">
+                </div>
+                 <!--email-->
+                <div>
+                    <label for="">E-Mail</label>
+                    <input type="text" placeholder="email@email.com">
+                </div>
+                 <!--senha-->
+                <div>
+                    <label for="">Senha</label>
+                    <input type="password" placeholder="Senha">
+                </div>
+                 <!--confirma senha-->
+                <div>
+                    <label for="">Confirme sua senha</label>
+                    <input type="password" placeholder="Confirme sua senha">
+                </div>
+                <!--Checkbox termos de uso e marketing-->
+                <div>
+                    <input type="checkbox" name="termos" id="termos">
+                    <label for="termos">Eu concordo com os Termos e Condições de Uso</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="marketing" id="marketing">
+                    <label for="marketing">Quero receber mensagens de marketing</label>
+                </div>
+                <!--Botoes entrar cancelar-->
+                <div>
+                    <button id="login-button" type="submit">Enviar</button>
+                    <button id="login-button-cancel" type="reset">Cancelar</button>
+                </div>
+                <!--Link redirecionamento entrar-->
+                <div class="tenho_cadastro ">
+                    <a href="#" id="tenho_cadastro" onclick="mudar_login()">Já tenho cadastro</a>
+                </div>
+
+                <input type="checkbox" id="check_cad" hidden>
+
+            </form>
+        </div>
+        </div>
+        <section id="contact">
+            <h2>Seção de Contato</h2>
+        </section>
+        
+    </main>
+    <footer>
+        <h3>Podcastream 2021</h3>
+    </footer>
+    <!--Minifuncao Js selector pega tudo da tag-->
+    <script type="text/javascript">
+        function mudar_login() {
+            var divs = document.getElementsByTagName("div");
+
+            divs[4].classList.add('mudar_login');
+            divs[7].classList.add('mudar_login');
+            divs[8].classList.add('mudar_login');
+            divs[9].classList.add('mudar_login');
+            
+            document.getElementById('check_cad').checked = true;
+
+            document.querySelector('title').text = "PodCastream | Entrar"
+        }
+    </script>
+</body>
+</html>
