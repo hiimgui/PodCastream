@@ -101,7 +101,7 @@
     color: white;
     font-weight: 600;
     background-color: #2cb67d;
-    border: 3px solid #010101;
+    border: none;
     border-radius: .3rem;
     transition: .25s;
 }
