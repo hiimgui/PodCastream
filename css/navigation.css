@@ -1,6 +1,6 @@
 /* ====================== NAV =========================================== */
 
-#main-navigation {
+nav#main-navigation {
     position: fixed;
     width: 100%;
     display: flex;
@@ -14,8 +14,7 @@
     margin-left: .5rem;
 }
 
-
-#logo {
+img#logo {
     width: 1.5rem;
     margin-right: .5rem;
     z-index: 1;
@@ -83,29 +82,29 @@
     padding: 1rem;
 }
 
+#menu-items li {
+    margin: 1rem;
+}
+
 #menu-items li a {
     margin: 2rem;
     font-weight: 600;
-}
-
-#menu-items li {
-    margin: 1rem;
 }
 
 #menu-items li a:hover {
     color: #7f5af0;
 }
 
-#login-button {
+button#login-button {
     padding: .5rem 1rem;
     color: white;
     font-weight: 600;
     background-color: #2cb67d;
-    border: 3px solid #010101;
+    border: none;
     border-radius: .3rem;
     transition: .25s;
 }
 
-#login-button:hover {
+button#login-button:hover {
     background-color: #7f5af0;
 }

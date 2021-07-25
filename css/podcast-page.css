@@ -1,66 +1,77 @@
 @import url('../style.css');
-
-.podcast-page {  
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 5px;
-    padding: 100px 0 0;
-    margin: 0px 150px 0px 150px;
-    grid-template-areas: "area1 area2 area2 area2"
-    "area3 . . ."
-}
-
-.foto {
-    grid-area: area1;
-    padding: 10px;
-    border-radius: 5px;
-    display: grid;
+.podcast-page {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 0 0;
+    height: 100vh;
 }
 
-#logo-podcast{
-    border-radius: 15px;
+.podcast-banner {
+    margin-bottom: 2rem;
 }
 
-.conteudo {
-    grid-area: area2;
-    padding: 10px;
+.podcast-foto {
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
 
-.links {
-    grid-area: area3;
-    padding: 10px;
-    border-radius: 5px;
-    grid-gap: 5px;
-    margin: 0px 40px 0px 40px;
+#logo-podcast {
+    border-radius: 0.3rem;
+    width: 15rem;
 }
 
-.conteudo h1 {
+.podcast-icons {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.podcast-icons a {
+    margin: 0 0.5rem;
+}
+
+.podcast-icons a img:hover{
+    transform: scale(1.2);
+    animation: bounce 0.1s;
+}
+
+
+
+.podcast-links {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 0.4rem;
+}
+
+.podcast-conteudo {
+    padding: 3rem;
+}
+
+.podcast-conteudo h1 {
     text-align: left;
     font-family: montserrat, sans-serif;
     color: #2cb67d;
+    margin-bottom: 0.2rem;
 }
-.conteudo h3 {
+
+.podcast-conteudo h3 {
     text-align: left;
     font-family: montserrat, sans-serif;
     color: #2cb67d;
-    font-size: 15px;
+    margin-bottom: 1rem;
 }
 
-.links p{
+.podcast-links p {
     font-family: rajdhanit, sans-serif;
     color: #2cb67d;
     text-align: center;
 }
 
-.icons{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.hear-here{
-    width: 30px;
+.hear-here {
+    width: 2rem;
     border-radius: 5px;
     cursor: pointer;
 }

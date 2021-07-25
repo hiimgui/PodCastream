@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/media-queries.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Rajdhani&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Rajdhani&display=swap"
+        rel="stylesheet">
 
     <link rel="shortcut icon" href="../img/podcastream-black.svg" type="image/x-icon">
     <title>PodCastream || Nome do canal</title>
@@ -22,7 +24,7 @@
     <nav id="main-navigation">
 
         <div id="logo-container">
-        <a href="../index.html"><img id="logo" src="../img/PodCastream-white.svg" alt="logo"/>Podcastream</a>
+            <a href="../index.html"><img id="logo" src="../img/PodCastream-white.svg" alt="logo" />Podcastream</a>
         </div>
 
         <div id="hamburger-menu">
@@ -32,39 +34,48 @@
 
             <div id=menu-items-container>
                 <ul id="menu-items">
-                <li><a href="">Sobre</a></li>
-                <li><a href="./pages/podcast.html">Uma Página</a></li>
-                <li><a href="">Outra Página</a></li>
-                <li><a href="#contact">Contato</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="podcast.html">Uma Página</a></li>
+                    <li><a href="">Trabalhe Conosco</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
 
                 <button type="button" id="login-button">Login &raquo;</button>
             </div>
-        
+
         </div>
     </nav>
-    
+
     <main>
         <section class="podcast-page">
-            <div class="foto">
-                <img id="logo-podcast" src="https://picsum.photos/200/200" alt="logo do podcast">
-            </div>
-            <div class="conteudo">
-                <h1>Nome do Podcast</h1>
-                <h3>Subtítulo/Categoria</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellat error veritatis similique natus
-                    in cupiditate mollitia cum, consectetur necessitatibus modi! Natus rerum voluptatum accusamus
-                    repudiandae ad quibusdam incidunt a.</p>
-            </div>
-            <div class="links">
-                <p>Onde ouvir:</p>
-                <div class="icons">
-                    <a href="https://open.spotify.com/"><img class="hear-here" src="../img/spotify.png" alt="logo do Spotify"></a>
-                    <a href="https://podcasts.google.com/"><img class="hear-here" src="../img/google.png" alt="logo do Google"></a>
-                    <a href="https://www.pocketcasts.com/"><img class="hear-here" src="../img/pocket.png" alt="logo do pocketcast"></a>
-                    <a href="https://www.youtube.com/results?search_query=podcast"><img class="hear-here" src="../img/youtube.png" alt="logo do youtube"></a>
+            <div class="podcast-banner">
+                <div class="podcast-foto">
+                    <img id="logo-podcast"
+                        src="https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_nologo400/15068526/15068526-1620578832432-1ec08c3e0d9b4.jpg"
+                        alt="logo Destino Digital">
+                </div>
+                <div class="podcast-links">
+                    <p>Onde ouvir:</p>
+                    <div class="podcast-icons">
+                        <a href="https://open.spotify.com/show/4YU2qk3nrKdhrbLVr52HPd"><img class="hear-here"
+                                src="../img/spotify.png" alt="logo do Spotify"></a>
+                        <a
+                            href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81YTY5NTU3OC9wb2RjYXN0L3Jzcw=="><img
+                                class="hear-here" src="../img/google.png" alt="logo do Google"></a>
+                        <a href="https://pca.st/owpo557i"><img class="hear-here" src="../img/pocket.png"
+                                alt="logo do pocketcast"></a>
+                        <a href="https://radiopublic.com/destino-digital-Wlxnn4"><img class="hear-here"
+                                src="../img/radiopublic.png" alt="logo do radiopublic"></a>
+                    </div>
                 </div>
             </div>
+            <div class="podcast-conteudo">
+                <h1>Destino Digital</h1>
+                <h3>Tecnologia</h3>
+                <p>Destino Digital, um espaço ideal para você buscar a Fluência Digital, assim como você busca em um
+                    Idioma.</p>
+            </div>
+
         </section>
 
         <section id="contact">
@@ -77,4 +88,5 @@
         <h3>Podcastream 2021</h3>
     </footer>
 </body>
+
 </html>
