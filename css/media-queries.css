@@ -110,6 +110,32 @@
 
 }
 
+/* ====================== ABOUT PAGE =========================================== */
+@media (min-width: 768px) {
+    section#devs{
+        padding: 4rem 6rem 6rem 6rem;
+        grid-row-gap: 3rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    section.about{
+        padding: 4rem 8rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    section#devs{
+        grid-row-gap: 3rem;
+        padding: 4rem 12rem 6rem 12rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    section.about{
+        padding: 4rem 15rem;
+
+    }
+
+
+}
+
 
 
 /* ====================== ANIMATIONS =========================================== */
