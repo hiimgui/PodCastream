@@ -50,6 +50,31 @@
         font-size: 1rem;
     }
 }
+
+@media (min-width: 768px){
+    #contact{
+        height:50vh !important;
+    }
+    .container-icons{
+        flex-direction: row !important;
+        height:50vh !important;
+    }
+}
+
+@media (max-width: 1120px){
+    .form h2{
+        margin: 1rem ;
+    }
+}
+
+@media (max-width: 540px){
+    input[type="email"]{
+        width:100%;
+    }
+}
+    /* .container-form{
+        flex-direction:column;
+    } */
 /* ====================== PODCAST-PAGES =========================================== */
 @media (min-width: 768px) {
     .podcast-page {
@@ -83,10 +108,6 @@
         width: 20rem;
     }
 
-    .container-icons {
-        flex-direction: row;
-        height: 50vh;
-    }
 }
 
 
