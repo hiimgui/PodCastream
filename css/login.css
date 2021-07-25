@@ -42,7 +42,10 @@
     margin-bottom: 0.5rem;
 }
 ::placeholder {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
+    font-family: Rajdhani, sans-serif;
+    font-weight: 400;
+    color: black;
 }
 
 .container div label:nth-child(2) {
