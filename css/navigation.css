@@ -1,0 +1,111 @@
+/* ====================== NAV =========================================== */
+
+#main-navigation {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    background: linear-gradient(180deg, black, #00000000);
+}
+
+#logo-container {
+    margin-left: .5rem;
+}
+
+
+#logo {
+    width: 1.5rem;
+    margin-right: .5rem;
+    z-index: 1;
+    filter: #7f5af0;
+}
+
+#logo-container a{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+
+#logo-container a:hover {
+    color: #7f5af0;
+    animation: bounce .1s;
+}
+
+/* ====================== HAMBURGER MENU =========================================== */
+
+#menu-hamburger-checkbox  {
+    display: none;
+}
+
+#hamburger-menu > label {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+#menu-hamburger-checkbox:checked ~ #menu-items-container {
+    display: flex;
+}
+
+#menu-hamburger-checkbox:checked ~ label {
+    color: #7f5af0;
+}
+
+#menu-items-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 5rem 0 2rem;
+    background: #16161a;
+    width: 100vw;
+    animation: slide-down .25s ease;
+    animation-fill-mode: backwards;
+}
+
+#menu-items {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+#menu-items li a {
+    margin: 2rem;
+    font-weight: 600;
+}
+
+#menu-items li {
+    margin: 1rem;
+}
+
+#menu-items li a:hover {
+    color: #7f5af0;
+}
+
+#login-button {
+    padding: .5rem 1rem;
+    color: white;
+    font-weight: 600;
+    background-color: #2cb67d;
+    border: 3px solid #010101;
+    border-radius: .3rem;
+    transition: .25s;
+}
+
+#login-button:hover {
+    background-color: #7f5af0;
+}

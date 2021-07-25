@@ -2,13 +2,40 @@
 
 @media (min-width: 768px) {
 
+    #logo-container {
+        position: none;
+    }
+
+    #hamburger-menu label {
+        display: none;
+    }
+
+    #menu-items {
+        flex-direction: row;
+    }
+
     #menu-items-container {
         display: flex;
+        flex-direction: row;
+    }
+    
+    .container-icons{
+        flex-direction: row;
+        height: 50vh;
     }
 
+}
 
-    #logo-container a {
-        margin-left: 0;
+
+/* ====================== ANIMATIONS =========================================== */
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-2px); }
+    100% { transform: translateY(2px); }
     }
 
+@keyframes slide-down {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(0%); }
 }

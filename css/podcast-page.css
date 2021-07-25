@@ -1,0 +1,65 @@
+@import url('../home.css')
+
+main {  
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin: 100px 150px 0px 150px;
+    grid-template-areas: "area1 area2 area2 area2"
+    "area3 . . ."
+}
+
+.foto {
+    grid-area: area1;
+    padding: 10px;
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+}
+
+#logo-podcast{
+    border-radius: 15px;
+}
+
+.conteudo {
+    grid-area: area2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.links {
+    grid-area: area3;
+    padding: 10px;
+    border-radius: 5px;
+    grid-gap: 5px;
+    margin: 0px 40px 0px 40px;
+}
+
+.conteudo h1 {
+    text-align: left;
+    font-family: montserrat, sans-serif;
+    color: #2cb67d;
+}
+.conteudo h3 {
+    text-align: left;
+    font-family: montserrat, sans-serif;
+    color: #2cb67d;
+    font-size: 15px;
+}
+
+.links p{
+    font-family: rajdhanit, sans-serif;
+    color: #2cb67d;
+    text-align: center;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.hear-here{
+    width: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}

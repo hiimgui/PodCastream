@@ -21,21 +21,27 @@
     <header class="parallax">
 
       <nav id="main-navigation">
+
         <div id="logo-container">
-          <a href="#"><img id="logo" src="../img/PodCastream-white.svg" alt="logo"/>Podcastream</a>
+          <a href="./index.html"><img id="logo" src="../img/PodCastream-white.svg" alt="logo"/>Podcastream</a>
         </div>
-        
-        <div id=menu-items-container>
 
-          <ul id="menu-items">
-            <li><a href="">Home</a></li>
-            <li><a href="">Home</a></li>
-            <li><a href="">Home</a></li>
-            <li><a href="">Home</a></li>
-          </ul>
+        <div id="hamburger-menu">
 
-          <button type="button" id="login-button">Login</button>
+          <input type="checkbox" id="menu-hamburger-checkbox" />
+          <label for="menu-hamburger-checkbox">&#9776;</label>
 
+          <div id=menu-items-container>
+            <ul id="menu-items">
+              <li><a href="">Sobre</a></li>
+              <li><a href="./pages/podcast.html">Uma Página</a></li>
+              <li><a href="">Trabalhe Conosco</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+
+            <button type="button" id="login-button">Login &raquo;</button>
+          </div>
+          
         </div>
       </nav>
 
@@ -223,6 +229,10 @@
       </section>
 
     </main>
-    <footer><h3>Podcastream 2021</h3></footer>
+
+    <footer>
+      <h3>Podcastream 2021</h3>
+    </footer>
+
   </body>
 </html>
