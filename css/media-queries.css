@@ -135,7 +135,19 @@
 
 
 }
-
+/* ====================== LOGIN PAGE =========================================== */
+@media (min-width: 768px) {
+    .login-background {
+        height: 120vh;
+    }
+    
+}
+@media (min-width: 1024px) {
+    .login-background {
+        height: 100vh;
+    }
+    
+}
 
 
 /* ====================== ANIMATIONS =========================================== */

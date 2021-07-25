@@ -42,7 +42,10 @@
     margin-bottom: 0.5rem;
 }
 ::placeholder {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
+    font-family: Rajdhani, sans-serif;
+    font-weight: 400;
+    color: black;
 }
 
 .container div label:nth-child(2) {
@@ -82,9 +85,13 @@ button#login-button-cancel:hover {
 .mudar_login {
     display: none;
 }
+
 a#tenho_cadastro:hover{
     color:#7f5af0;
-} 
+}
+
+
+
 #check_cad:checked ~ #tenho_cadastro {
     display: none;
  }
