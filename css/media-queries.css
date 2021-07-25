@@ -2,24 +2,10 @@
 
 @media (min-width: 768px) {
 
+
     #hamburger-menu > label {
         display: none;
         margin-right: 0;
-    }
-
-    #menu-items {
-        flex-direction: row;
-        font-size: 1rem;
-    }
-
-    #menu-items li a {
-        font-size: .75rem;
-        margin: 0 1rem;
-    }
-
-    #menu-items li {
-        padding: 1rem 0;
-        margin: 0;
     }
 
     #menu-items-container {
@@ -29,13 +15,25 @@
         padding: 0 1rem;
         background: rgba(255, 255, 255, 0);
         width: 100%;
+        position: static;
     }
 
-    #main-navigation {
-        padding: 1.75rem 0;
+    #menu-items {
+        flex-direction: row;
+        font-size: 1rem;
     }
 
-    #login-button {
+    #menu-items li {
+        padding: 1rem 0;
+        margin: 0;
+    }
+
+    #menu-items li a {
+        font-size: .75rem;
+        margin: 0 1rem;
+    }
+
+    button#login-button {
         padding: .5rem 1.5rem;
         margin-right: 1rem;
     }
@@ -44,10 +42,39 @@
 
 @media (min-width: 1024px) {
 
+    #main-navigation {
+        padding: 1.5rem;
+    }
+
     #menu-items li a {
         font-size: 1rem;
     }
 }
+
+@media (min-width: 768px){
+    #contact{
+        height:50vh !important;
+    }
+    .container-icons{
+        flex-direction: row !important;
+        height:50vh !important;
+    }
+}
+
+@media (max-width: 1120px){
+    .form h2{
+        margin: 1rem ;
+    }
+}
+
+@media (max-width: 540px){
+    input[type="email"]{
+        width:100%;
+    }
+}
+    /* .container-form{
+        flex-direction:column;
+    } */
 /* ====================== PODCAST-PAGES =========================================== */
 @media (min-width: 768px) {
     .podcast-page {
@@ -83,7 +110,31 @@
 
 }
 
+/* ====================== ABOUT PAGE =========================================== */
+@media (min-width: 768px) {
+    section#devs{
+        padding: 4rem 6rem 6rem 6rem;
+        grid-row-gap: 3rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    section.about{
+        padding: 4rem 8rem;
+    }
+}
 
+@media (min-width: 1024px) {
+    section#devs{
+        grid-row-gap: 3rem;
+        padding: 4rem 12rem 6rem 12rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    section.about{
+        padding: 4rem 15rem;
+
+    }
+
+
+}
 
 
 

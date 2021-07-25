@@ -1,6 +1,6 @@
 /* ====================== HEADER =========================================== */
 
-.parallax {
+header.parallax {
     height: 100vh;
     width: 100%;
     background-image: url(../img/header-parallax.jpg);
@@ -14,35 +14,81 @@
 /* ====================== ARTICLES SECTION =========================================== */
 
 .podcast-section {
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 .podcast-section h2 {
     font-weight: 600;
-    font-size: 2rem;
-    margin: 0 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    margin: 0 1rem;
 }
 
 .articles-container {
     display: flex;
-    overflow-y: auto;
+    flex-direction: row;
+    align-items: center;
+    height: 18rem;
+    width: 100%;
+    overflow: auto;
+
+    -webkit-scrollbar: 0;
+}
+
+.articles-container:focus-within .card,
+.articles-container:hover .card {
+  transform: translateX(-10%);
+}
+
+.card:focus ~ .card,
+.card:hover ~ .card {
+  transform: translateX(10%);
+}
+
+.articles-container .card:focus,
+.articles-container .card:hover {
+  transform: scale(1.2);
+  z-index: 1;
 }
 
 .card {
-    height: 20rem;
-    min-height: 300px;
-    width: 10rem;
-    min-width: 240px;
-    border: 1px solid;
-    margin: 0.5rem;
-    border-radius: .5rem;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 12rem;
+  flex: 1 1 0px;
+  margin: 0.3rem;
+  transition: transform 500ms;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, .75);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
     transition: .5s ease;
 }
 
-.card:hover {
-    transform: scale(1.2);
-    filter: drop-shadow(1px 1px 50px black);
+.card-info:hover{
+    opacity: 1;
+}
+
+a.listen-podcast {
+    padding: .5rem 1rem;
+    background-color: #2cb67d;
+    border-radius: .3rem;
+    margin: 0rem 1rem 1rem 1rem;
+    transition: .25s;
+}
+
+a.listen-podcast:hover {
+    background-color: #7f5af0;
 }
 
 .card img {
@@ -50,11 +96,11 @@
 }
 
 .card h3 {
-    margin: -2rem 1rem 2rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;
 }
 
 .card p {
-    margin: -1rem 1rem 1rem 1rem;
+    margin: 0rem 1rem 1rem 1rem;
 }
 
 
@@ -64,31 +110,104 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.548)), url(../img/parallax-podcast.jpg);  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
+.container-form{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#242629;
+    background-color:white;
+    padding: 0.5rem;
+    border-radius:0.5rem;
+    margin: 0.8rem;
+    width: 65%;
+    margin:1.5rem;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-form label{
+    color:#242629;
+}
+
+input[type="email"]{
+    outline: none;
+    background: none;
+    border: none;
+    color:#242629;
+    padding: 0.5rem;
+    width:80%;
+    background-color: transparent;
+}
+
+.form-btn {
+    padding: .5rem 1rem;
+    color: white;
+    font-weight: 600;
+    background: #2cb67d;
+    border: 3px solid #010101;
+    border-radius: .3rem;
+    transition: .25s ease-in;
+    cursor:pointer;
+    margin-right:1rem;
+}
+
+.form-btn:hover {
+    background-color: #7f5af0;
+}
+
+::placeholder{
+    color:#242629;
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* ====================== CONTACT =========================================== */
 
 #contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    text-align: center;
     height: 100vh;
+    margin-top: 1.5rem;
 }
 
+.container-icons{ 
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+    width:100%;
+    /* padding-bottom: 5rem; */
+}
+
+.container-icons h3,p{
+    margin:0.5rem;
+}
+   
 
 /* ====================== FOOTER =========================================== */
-
 footer {
-    padding: 1.5rem;
-    background-color: white;
+    padding: 1.2rem;
+    background-color: #242629;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+    bottom:0;
+   
 }
 
 footer h3 {
