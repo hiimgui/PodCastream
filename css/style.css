@@ -1,8 +1,7 @@
 @import url('./about.css');
-@import url('./podcast-page.css');
 @import url('./login.css');
 @import url('./home.css');
-
+@import url('./podcast-page.css');
 @import url('./config.css');
 @import url('./navigation.css');
 @import url('./media-queries.css');
