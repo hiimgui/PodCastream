@@ -2,6 +2,7 @@
 
 @media (min-width: 768px) {
 
+
     #hamburger-menu > label {
         display: none;
         margin-right: 0;
@@ -31,13 +32,13 @@
     #login-button {
         padding: .5rem 1.5rem;
     }
-    
-    .container-icons{
+
+    .container-icons {
         flex-direction: row;
         height: 50vh;
     }
-
 }
+
 
 
 /* ====================== ANIMATIONS =========================================== */

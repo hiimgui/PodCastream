@@ -131,9 +131,9 @@ input[type="email"]{
 
 /* ====================== CONTACT =========================================== */
 
-.contact {
+#contact {
     text-align: center;
-   height: 50vh;
+    height: 50vh;
     margin-top: 1.5rem;
 }
 
@@ -153,13 +153,13 @@ input[type="email"]{
    
 
 /* ====================== FOOTER =========================================== */
-
 footer {
-    padding:1rem;
+    padding: 1.2rem;
     background-color: #242629;
-    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height:auto;
     bottom:0;
     position:fixed;
 }
