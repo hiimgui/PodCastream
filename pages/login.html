@@ -32,13 +32,13 @@
     
                 <div id=menu-items-container>
                     <ul id="menu-items">
-                        <li><a href="#">Sobre</a></li>
+                        <li><a href="./about.html">Sobre</a></li>
                         <li><a href="../pages/podcast.html">Uma Página</a></li>
                         <li><a href="">Trabalhe Conosco</a></li>
                         <li><a href="#contact">Contato</a></li>
                     </ul>
         
-                    <button type="button" id="login-button" onclick="mudar_login()"><a href="../pages/login.html">Login &raquo;</a></button>
+                    <button type="button" id="login-button"><a href="../pages/login.html">Login &raquo;</a></button>
                 </div>
             
             </div>
@@ -131,11 +131,11 @@
             var divs = document.getElementsByTagName("div");
             var tcadastro = document.getElementById("tenho_cadastro");
 
-            divs[5].classList.add('mudar_login');
-            divs[8].classList.add('mudar_login');
-            divs[9].classList.add('mudar_login');
-            divs[10].classList.add('mudar_login');
-            tcadastro.classList.add("mudar_login");
+            divs[5].classList.toggle('mudar_login');
+            divs[8].classList.toggle('mudar_login');
+            divs[9].classList.toggle('mudar_login');
+            divs[10].classList.toggle('mudar_login');
+            tcadastro.classList.toggle("mudar_login");
             
             document.getElementById('check_cad').checked = true;
 
