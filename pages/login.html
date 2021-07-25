@@ -92,23 +92,50 @@
             </form>
         </div>
         </div>
-        <section id="contact">
-            <h2>Seção de Contato</h2>
-        </section>
-        
-    </main>
+
+    <section id="contact">
+        <div class="contact-title"></div>
+          <h2>Fale conosco</h2>
+        </div>
+        <div class="container-icons">
+          <div class="home">
+            <img src="../img/home.png" alt="Ícone de casa">
+            <h3>Localização</h3>
+            <p>Aproveite e venha nos visitar!</p>
+            <p>Avenida Paulista, 1000</p>
+          </div>
+          <div class="phone">
+            <img src="../img/phone-call.png" alt="Ícone de telefone">
+            <h3>Telefone</h3>
+            <p>Ligue-nos se precisar!</p>
+            <p>(021)99999-9999</p>
+          </div>
+          <div class="mail">
+            <img src="../img/mail.png" alt="Ícone de email">
+            <h3>E-mail</h3>
+            <p>Ou se preferir, mande um e-mail!</p>
+            <p>podscastream@provedor.com</p>
+          </div>
+        </div>
+      </section>
+
+      </main>
+
     <footer>
         <h3>Podcastream 2021</h3>
     </footer>
-    <!--Minifuncao Js selector pega tudo da tag-->
+
+    <!-- Minifuncao Js selector pega tudo da tag-->
     <script type="text/javascript">
         function mudar_login() {
             var divs = document.getElementsByTagName("div");
+            var tcadastro = document.getElementById("tenho_cadastro");
 
-            divs[4].classList.add('mudar_login');
-            divs[7].classList.add('mudar_login');
+            divs[5].classList.add('mudar_login');
             divs[8].classList.add('mudar_login');
             divs[9].classList.add('mudar_login');
+            divs[10].classList.add('mudar_login');
+            tcadastro.classList.add("mudar_login");
             
             document.getElementById('check_cad').checked = true;
 

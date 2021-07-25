@@ -85,9 +85,13 @@ button#login-button-cancel:hover {
 .mudar_login {
     display: none;
 }
+
 a#tenho_cadastro:hover{
     color:#7f5af0;
-} 
+}
+
+
+
 #check_cad:checked ~ #tenho_cadastro {
     display: none;
  }
