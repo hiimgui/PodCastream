@@ -41,8 +41,10 @@
     padding-left: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
 ::placeholder {
-    font-size: 0.8rem;
+    font-family: Rajdhani, sans-serif;
+    color: #94a1b2;
 }
 
 .container div label:nth-child(2) {

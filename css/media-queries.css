@@ -2,6 +2,9 @@
 
 @media (min-width: 768px) {
 
+    #logo-container {
+        margin-left: 1.5rem;
+    }
 
     #hamburger-menu > label {
         display: none;
@@ -12,7 +15,7 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        padding: 0 1rem;
+        padding: 0 .5rem;
         background: rgba(255, 255, 255, 0);
         width: 100%;
         position: static;
@@ -35,12 +38,16 @@
 
     button#login-button {
         padding: .5rem 1.5rem;
-        margin-right: 1rem;
+        margin-right: 1.5rem;
     }
 }
 
 
 @media (min-width: 1024px) {
+
+    #logo-container {
+        margin-left: 2rem;
+    }
 
     #main-navigation {
         padding: 1.5rem;
@@ -49,9 +56,58 @@
     #menu-items li a {
         font-size: 1rem;
     }
+
+    button#login-button {
+        margin-right: 2rem;
+    }
 }
 
-@media (min-width: 768px){
+
+/* ====================== PODCAST-PAGES =========================================== */
+
+@media (min-width: 768px) {
+
+    .podcast-page {
+        flex-direction: row;
+    }
+
+    .podcast-banner{
+        width: 40rem;
+    }
+
+    #logo-podcast{
+        width: 12rem;
+    }
+
+    .podcast-conteudo {
+        position: relative; 
+        top: 0;
+        padding: 0;
+    }   
+
+    .podcast-page{
+        align-items: flex-start;
+        padding: 8rem 0;
+    }
+    
+    .podcast-conteudo p {
+        padding-right: 5rem;
+    }
+}
+
+
+@media (min-width: 1024px) {
+
+    #logo-podcast{
+        width: 20rem;
+    }
+
+}
+
+
+/* ====================== PODCAST-PAGES =========================================== */
+
+/* @media (min-width: 768px){
     #contact{
         height:50vh !important;
     }
@@ -71,69 +127,35 @@
     input[type="email"]{
         width:100%;
     }
-}
-    /* .container-form{
-        flex-direction:column;
-    } */
-/* ====================== PODCAST-PAGES =========================================== */
-@media (min-width: 768px) {
-    .podcast-page {
-        flex-direction: row;
-        
-    }
-    .podcast-banner{
-        width: 40rem;
-    }
+} */
 
-    #logo-podcast{
-        width: 12rem;
-    }
-    .podcast-conteudo {
-    position: relative; 
-    top: 0;
-    padding: 0;
-    }   
-    .podcast-page{
-        align-items: flex-start;
-        padding: 8rem 0;
-    }
-    .podcast-conteudo p {
-        padding-right: 5rem;
-    }
-}
-
-
-@media (min-width: 1024px) {
-    #logo-podcast{
-        width: 20rem;
-    }
-
-}
 
 /* ====================== ABOUT PAGE =========================================== */
+
 @media (min-width: 768px) {
-    section#devs{
+
+    section#devs {
         padding: 4rem 6rem 6rem 6rem;
         grid-row-gap: 3rem;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    section.about{
+
+    section.about {
         padding: 4rem 8rem;
     }
 }
 
 @media (min-width: 1024px) {
-    section#devs{
+
+    section#devs {
         grid-row-gap: 3rem;
         padding: 4rem 12rem 6rem 12rem;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    section.about{
+
+    section.about {
         padding: 4rem 15rem;
-
     }
-
-
 }
 
 

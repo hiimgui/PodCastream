@@ -8,6 +8,7 @@ nav#main-navigation {
     justify-content: space-between;
     padding: 1rem 0;
     background: linear-gradient(180deg, black, #00000000);
+    z-index: 3;
 }
 
 #logo-container {
