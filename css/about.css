@@ -15,15 +15,19 @@ section.about {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
-  height: 100vh;
+  height: 120vh;
   align-items: center;
-  padding: 4rem;
+  padding: 3rem;
 }
 
 img.since {
   width: 15rem;
   margin-bottom: 3rem;
+}
+
+.historia h3 {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 article.dev-container {
