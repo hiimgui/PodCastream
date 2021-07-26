@@ -41,6 +41,7 @@
     padding-left: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
 ::placeholder {
     font-size: 0.75rem;
     font-family: Rajdhani, sans-serif;
@@ -78,7 +79,7 @@
 button#login-button-cancel:hover {
     background-color: #d846469a;
     color: white;
-    border:none;
+    border: solid 2px #16161a;
     cursor: pointer;
 }
 

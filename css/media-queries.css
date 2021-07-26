@@ -2,6 +2,9 @@
 
 @media (min-width: 768px) {
 
+    #logo-container {
+        margin-left: 1.5rem;
+    }
 
     #hamburger-menu > label {
         display: none;
@@ -12,7 +15,7 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        padding: 0 1rem;
+        padding: 0 .5rem;
         background: rgba(255, 255, 255, 0);
         width: 100%;
         position: static;
@@ -35,12 +38,16 @@
 
     button#login-button {
         padding: .5rem 1.5rem;
-        margin-right: 1rem;
+        margin-right: 1.5rem;
     }
 }
 
 
 @media (min-width: 1024px) {
+
+    #logo-container {
+        margin-left: 2rem;
+    }
 
     #main-navigation {
         padding: 1.5rem;
@@ -49,24 +56,14 @@
     #menu-items li a {
         font-size: 1rem;
     }
-}
 
-@media (min-width: 768px){
-    #contact{
-        height:50vh !important;
-    }
-    .container-icons{
-        flex-direction: row !important;
-        height:50vh !important;
+    button#login-button {
+        margin-right: 2rem;
     }
 }
 
-@media (max-width: 1120px){
-    .form h2{
-        margin: 1rem ;
-    }
-}
 
+<<<<<<< HEAD
 @media (max-width: 540px){
     input[type="email"]{
         width:100%;
@@ -81,12 +78,16 @@
     /* .container-form{
         flex-direction:column;
     } */
+=======
+>>>>>>> f63e5a7d8b448726246af700c36a0ebd2f166177
 /* ====================== PODCAST-PAGES =========================================== */
+
 @media (min-width: 768px) {
+
     .podcast-page {
         flex-direction: row;
-        
     }
+
     .podcast-banner{
         width: 40rem;
     }
@@ -94,15 +95,18 @@
     #logo-podcast{
         width: 12rem;
     }
+
     .podcast-conteudo {
-    position: relative; 
-    top: 0;
-    padding: 0;
+        position: relative; 
+        top: 0;
+        padding: 0;
     }   
+
     .podcast-page{
         align-items: flex-start;
         padding: 8rem 0;
     }
+    
     .podcast-conteudo p {
         padding-right: 5rem;
     }
@@ -110,38 +114,75 @@
 
 
 @media (min-width: 1024px) {
+
     #logo-podcast{
         width: 20rem;
     }
 
 }
 
-/* ====================== ABOUT PAGE =========================================== */
+
+/* ====================== CONTACT SECTION =========================================== */
+
 @media (min-width: 768px) {
-    section#devs{
+
+    .container-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #contact {
+        height: 80vh;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .contact-icon {
+        margin: 0 3rem;
+    }
+
+    .contact-icon img {
+        width: 50px;
+    }
+
+}
+
+
+
+/* ====================== ABOUT PAGE =========================================== */
+
+@media (min-width: 768px) {
+
+    section#devs {
         padding: 4rem 6rem 6rem 6rem;
         grid-row-gap: 3rem;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    section.about{
+
+    section.about {
+        height: 70vh;
         padding: 4rem 8rem;
     }
 }
 
 @media (min-width: 1024px) {
-    section#devs{
+
+    section#devs {
         grid-row-gap: 3rem;
         padding: 4rem 12rem 6rem 12rem;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    section.about{
+
+    section.about {
+        height: 80vh;
         padding: 4rem 15rem;
-
     }
-
-
 }
 /* ====================== LOGIN PAGE =========================================== */
+
 @media (min-width: 768px) {
     .login-background {
         height: 120vh;
