@@ -112,12 +112,33 @@ a.listen-podcast:hover {
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
+    padding: 2rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.548)), url(../img/parallax-podcast.jpg);  
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
+}
+
+
+.form-mail {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-mail h2 {
+    text-align: center;
+    color: #fffffe;
+    padding: 1rem;
+}
+
+.form-mail h3 {
+    text-align: center;
+    color: #2cb67d;
+    margin-bottom: 3rem;
 }
 
 .container-form {
@@ -126,79 +147,61 @@ a.listen-podcast:hover {
     justify-content: space-between;
     color:#242629;
     background-color:white;
-    padding: 0.5rem;
-    border-radius:0.5rem;
+    border-radius: 0.5rem;
     margin: 0.8rem;
-    width: 65%;
-    margin:1.5rem;
-}
-
-.form {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.container-form label{
-    color:#242629;
+    width: 95%;
 }
 
 input[type="email"]{
-    outline: none;
-    background: none;
     border: none;
-    color:#242629;
-    padding: 0.5rem;
-    width:80%;
-    background-color: transparent;
-}
-
-.form-btn {
-    padding: .5rem 1rem;
-    color: white;
-    font-weight: 600;
-    background: #2cb67d;
-    border: 3px solid #010101;
+    padding: .75rem;
+    width: 100%;
     border-radius: .3rem;
-    transition: .25s ease-in;
-    cursor:pointer;
-    margin-right:1rem;
 }
 
-.form-btn:hover {
-    background-color: #7f5af0;
-}
-
-::placeholder{
-    color:#242629;
+#email::placeholder{
+    color: #242629;
     font-family: 'Montserrat', sans-serif;
 }
+
+button#login-button.form-btn {
+    margin: 0;
+    width: 10rem;
+}
+
 
 /* ====================== CONTACT =========================================== */
 
 #contact {
-    text-align: center;
-    height: 100vh;
-    margin-top: 1.5rem;
-}
-
-.container-icons{ 
-    display:flex;
-    align-items: center;
-    justify-content: space-evenly;
+    display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
     height: 100vh;
-    width:100%;
-    /* padding-bottom: 5rem; */
 }
 
-.container-icons h3,p{
-    margin:0.5rem;
+.contact-title h2 {
+    font-size: 1rem;
+    margin-bottom: 5rem;
 }
+
+.contact-icon {
+    padding: 1rem;
+}
+
+.contact-icon img {
+    width: 30px;
+}
+
+/* .container-icons h3,
+.container-icons p {
+    margin: 0.5rem;
+} */
    
 
 /* ====================== FOOTER =========================================== */
+
+
 footer {
     padding: 1.2rem;
     background-color: #242629;
@@ -207,7 +210,6 @@ footer {
     justify-content: center;
     width: 100%;
     bottom:0;
-   
 }
 
 footer h3 {

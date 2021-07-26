@@ -79,7 +79,7 @@
 button#login-button-cancel:hover {
     background-color: #d846469a;
     color: white;
-    border:none;
+    border: solid 2px #16161a;
     cursor: pointer;
 }
 

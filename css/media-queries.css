@@ -105,29 +105,34 @@
 }
 
 
-/* ====================== PODCAST-PAGES =========================================== */
+/* ====================== CONTACT SECTION =========================================== */
 
-/* @media (min-width: 768px){
-    #contact{
-        height:50vh !important;
+@media (min-width: 768px) {
+
+    .container-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
-    .container-icons{
-        flex-direction: row !important;
-        height:50vh !important;
+
+    #contact {
+        height: 80vh;
     }
+
 }
 
-@media (max-width: 1120px){
-    .form h2{
-        margin: 1rem ;
+@media (min-width: 1024px) {
+
+    .contact-icon {
+        margin: 0 3rem;
     }
+
+    .contact-icon img {
+        width: 50px;
+    }
+
 }
 
-@media (max-width: 540px){
-    input[type="email"]{
-        width:100%;
-    }
-} */
 
 
 /* ====================== ABOUT PAGE =========================================== */
@@ -141,6 +146,7 @@
     }
 
     section.about {
+        height: 70vh;
         padding: 4rem 8rem;
     }
 }
@@ -154,10 +160,12 @@
     }
 
     section.about {
+        height: 80vh;
         padding: 4rem 15rem;
     }
 }
 /* ====================== LOGIN PAGE =========================================== */
+
 @media (min-width: 768px) {
     .login-background {
         height: 120vh;
