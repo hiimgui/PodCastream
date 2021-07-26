@@ -1,6 +1,6 @@
 /* ====================== HEADER =========================================== */
 
-header.parallax {
+header#header-git parallax {
     height: 100vh;
     width: 100%;
     background-image: url("../img/microphone-2618102_1920-1.jpg");
