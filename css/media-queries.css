@@ -63,6 +63,22 @@
 }
 
 
+@media (max-width: 540px){
+    input[type="email"]{
+        width:100%;
+    }
+
+    .entrada .conteudo_entrada div p {
+        font-size: 20px;
+        margin-top: 150px;
+        font-weight: 400;
+    }
+}
+
+    /* .container-form{
+        flex-direction:column;
+    } */
+
 /* ====================== PODCAST-PAGES =========================================== */
 
 @media (min-width: 768px) {
