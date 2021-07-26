@@ -33,6 +33,11 @@ header.parallax {
     padding: 50px;
 }
 
+
+.playstore{
+    cursor: pointer;
+}
+
 .entrada .conteudo_entrada div p {
     text-align: center;
     font-size: 40px;
