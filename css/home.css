@@ -96,8 +96,16 @@ header.parallax {
   position: relative;
   min-width: 12rem;
   flex: 1 1 0px;
-  margin: 0.3rem;
+  margin: 0.1rem;
   transition: transform 500ms;
+}
+
+.articles-container .card:first-of-type {
+    margin-left: 1.5rem;
+}
+
+.articles-container .card:last-of-type {
+    margin-right: 1.5rem;
 }
 
 .card-info {
