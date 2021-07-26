@@ -104,6 +104,7 @@ button#login-button {
     border: none;
     border-radius: .3rem;
     transition: .25s;
+    cursor: pointer;
 }
 
 button#login-button:hover {
