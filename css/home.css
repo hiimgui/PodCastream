@@ -10,6 +10,41 @@ header.parallax {
     background-size: cover;
 }
 
+/* ====================== ENTRADA SECTION =========================================== */
+
+.entrada {
+    width: 100%;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.entrada .conteudo_entrada {
+    padding: 20px;
+}
+
+
+.entrada div {
+    text-align: center;
+    padding: 50px;
+}
+
+.entrada .conteudo_entrada div p {
+    text-align: center;
+    font-size: 40px;
+    font-family: Rajdhani, sans-serif;
+    font-weight: 800;
+    margin-top: 180px;
+    color: #FFF;
+}
+
+
+
+
 
 /* ====================== ARTICLES SECTION =========================================== */
 
