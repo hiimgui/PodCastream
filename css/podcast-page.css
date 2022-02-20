@@ -5,8 +5,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 5rem 0 0;
-    height: 100vh;
+    padding: 5rem 0 0 0;
+    height: 100%;
 }
 
 .podcast-banner {
@@ -39,8 +39,6 @@
     animation: bounce 0.1s;
 }
 
-
-
 .podcast-links {
     display: flex;
     flex-direction: column;
@@ -48,7 +46,7 @@
 }
 
 .podcast-conteudo {
-    padding: 3rem;
+    padding: 1rem;
     width: 74%;
 }
 
@@ -76,4 +74,8 @@
     width: 2rem;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.embedded-podcast {
+    margin-top: 3rem;
 }

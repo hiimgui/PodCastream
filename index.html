@@ -7,19 +7,18 @@
 
     <link rel="stylesheet" href="./css/style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Rajdhani&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link ref="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Rajdhani&display=swap" rel="stylesheet" />
 
-    <link rel="shortcut icon" href="./img/podcastream-black.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/podcastream-black.svg" type="image/x-icon" />
 
     <title>Podcastream</title>
-
   </head>
+
   <body>
 
     <header id="header-parallax">
-
       <nav id="main-navigation">
 
         <div id="logo-container">
@@ -27,11 +26,10 @@
         </div>
 
         <div id="hamburger-menu">
-
           <input type="checkbox" id="menu-hamburger-checkbox" />
-          <label for="menu-hamburger-checkbox" aria-labelledby="menu-toggle">&#9776;</label>
+          <label for="menu-hamburger-checkbox" aria-labelledby="icone de menu">&#9776;</label>
 
-          <div id=menu-items-container>
+          <div id="menu-items-container">
             <ul id="menu-items">
               <li><a href="./pages/about.html">Sobre</a></li>
               <li><a href="#newsletter">Newsletter</a></li>
@@ -41,258 +39,255 @@
 
             <a href="./pages/login.html"><button type="button" id="login-button">Login &raquo;</button></a>
           </div>
-          
         </div>
       </nav>
 
       <section class="entrada">
         <div class="conteudo_entrada">
-          
-          <div><img class="playstore" src="./img/googleapplestore.png"></div>
-          <div><p><a href="#podcast-section">PODCAST</a> também é MÚSICA!</p></div>
+          <h1>Podcast também é música!</h1>
+          <div><a href="https://play.google.com/store" target="_blank"><img src="./img/googleapplestore.png" alt="banner da google playstore"/></a></div>
+
+          <a href="#first-podcast-section"><img class="arrow-down" src="./img/arrowdown.svg" alt="scroll down arraow navigation"/></a>
         </div>
       </section>
-
     </header>
 
     <main>
 
+      <section class="main-podcast-section">
 
+        <section class="podcast-section" id="first-podcast-section">
+          <h2>Tecnologia</h2>
 
-      <section class="podcast-section" id="podcast-section">
+          <div class="articles-container">
 
-        <h2>Tecnologia</h2>
+            <article class="card">
+              <img src="./img/area-trans.png" alt="imagem do podcast" />
+              <div class="card-info">
+                <h3>Área de Transferência</h3>
+                <p>Notícias sobre o mercado da tecnologia.</p>
+                <a href="./pages/AreadeTransferencia.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
 
-        <div class="articles-container">
-          <article class="card">
-            <img src="./img/area-trans.png" alt="imagem do podcast">
-            <div class="card-info">
-              <h3>Área de Transferência</h3>
-              <p>Notícias sobre o mercado da tecnologia.</p>
-              <a href="./pages/AreadeTransferencia.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
+            <article class="card">
+              <img src="./img/codigoAberto.jpg" alt="imagem do podcast" />
+              <div class="card-info">
+                <h3>Código Aberto</h3>
+                <p>Conversas sobre o futuro da mídia, tecnologia e da comunicação.</p>
+                <a href="./pages/CodigoAberto.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
 
-          <article class="card">
-            <img src="./img/codigoAberto.jpg" alt="imagem do podcast">
-            <div class="card-info">
-              <h3>Código Aberto</h3>
-              <p>Conversas sobre o futuro da mídia, tecnologia e da comunicação.</p>
-              <a href="./pages/CodigoAberto.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
+            <article class="card">
+              <img src="./img/CyperCast.jpg" alt="imagem do podcast" />
+              <div class="card-info">
+                <h3>CyperCast</h3>
+                <p>TI, transição de carreira e Segurança Cibernética.</p>
+                <a href="./pages/CyperCast.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
 
-          <article class="card">
-            <img src="./img/CyperCast.jpg" alt="imagem do podcast">
-            <div class="card-info">
-              <h3>CyperCast</h3>
-              <p>TI, transição de carreira e Segurança Cibernética.</p>
-              <a href="./pages/CyperCast.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
+            <article class="card">
+              <img src="./img/destino-digital.jpg" alt="imagem do podcast" />
+              <div class="card-info">
+                <h3>Destino Digital</h3>
+                <p>Buscando a Fluência Digital.</p>
+                <a href="./pages/DestinoDigital.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
 
-          <article class="card">
-            <img src="./img/destino-digital.jpg" alt="imagem do podcast">
-            <div class="card-info">
-              <h3>Destino Digital</h3>
-              <p>Buscando a Fluência Digital.</p>
-              <a href="./pages/DestinoDigital.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
+            <article class="card">
+              <img src="./img/podProgramar.jpg" alt="imagem do podcast" />
+              <div class="card-info">
+                <h3>podProgramar</h3>
+                <p>Programação, tecnologia e histórias com um toque feminino.</p>
+                <a href="./pages/PodProgramar.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
 
-          <article class="card">
-            <img src="./img/podProgramar.jpg" alt="imagem do podcast">
-            <div class="card-info">
-              <h3>podProgramar</h3>
-              <p>Programação, tecnologia e histórias com um toque feminino.</p>
-              <a href="./pages/PodProgramar.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <img src="./img/hipsters.jpg" alt="imagem do podcast">
-            <div class="card-info">
-              <h3>Hipsters Ponto Tech</h3>
-              <p>Tecnologia, programação, design, startups e as últimas tendências.</p>
-              <a href="./pages/Hipsters.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="podcast-section">
-
-        <h2>UI/UX</h2>
-
-        <div class="articles-container">
-          <article class="card">
-            <a href=""><img src="./img/Game UXPodcast.jpg" alt="imagem do podcast"></a>
-            <div class="card-info">
-              <h3>Game Ux Podcast</h3>
-              <p>Sobre desenvolvedores de games e suas jornadas.</p>
-              <a href="./pages/GameUXPodcast.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <a href=""><img src="./img/Movimento UX.png" alt="imagem do podcast"></a>
-            <div class="card-info">
-              <h3>Movimento UX</h3>
-              <p>Entrevistas com líderes de UX design no Brasil e no mundo.</p>
-              <a href="./pages/MovimentoUX.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <a href=""><img src="./img/UI Breakfast.jpg" alt="imagem do podcast"></a>
-            <div class="card-info">
-              <h3>UI Breakfast</h3>
-              <p>Design de UI/UX, produtos SaaS, marketing e mais.</p>
-              <a href="./pages/UIBreakfast.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <a href=""><img src="./img/UXLegendsPodcast.jpg" alt="imagem do podcast"></a>
-            <div class="card-info">
-              <h3>UX Legends</h3>
-              <p>Resolvendo problemas do usuário com foco no negócio + frontend + softskills.</p>
-              <a href="./pages/UXLegendsPodcast.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <a href=""><img src="./img/uxPodcast.png" alt="imagem do podcast"></a>
-            <div class="card-info">
-              <h3>UXPodcast</h3>
-              <p>Design Digital - Negócios, tecnologia e pessoas.</p>
-              <a href="./pages/UXPodcast.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <a href=""><img src="./img/UInarrative.png" alt="imagem do podcast"></a>
-            <div class="card-info">
-              <h3>UI Narrative</h3>
-              <p>Narrativas de designers, pessoas e pesquisadores.</p>
-              <a href="./pages/UINarrative.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="podcast-section">
-
-        <h2>Games</h2>
-
-        <div class="articles-container">
-          <article class="card">
-            <a href=""><img src="./img/dash_logo-1.png" alt="imagem do podcast"></a>
-            <div class="card-info">
-              <h3>No DASH</h3>
-              <p>Jogos, franquias, desenvolvedores, criação, experiência.</p>
-              <a href="./pages/jogabilidade.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <a href=""><img src="./img/Overloadr.png" alt="imagem do podcast"></a>
-            <div class="card-info">
-              <h3>Overloadr</h3>
-              <p>Novidades de lançamentos e opiniões nem sempre sérias.</p>
-              <a href="./pages/motherchip.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <a href=""><img src="./img/Nautilus.png" alt="imagem do podcast"></a>
-            <div class="card-info">
-              <h3>Nautilus</h3>
-              <p>Tratando games com maturidade e respeito.</p>
-              <a href="./pages/nautilus.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <a href=""><img src="./img/gamesemacao.jpg" alt="imagem do podcast"></a>
-            <div class="card-info">
-              <h3>Games em ação</h3>
-              <p>Jogos na educação, gamificação, serious games, criação, cases de sucesso.</p>
-              <a href="./pages/game-acao.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <a href=""><img src="./img/99vidas.png" alt="imagem do podcast"></a>
-            <div class="card-info">
-              <h3>99 Vidas</h3>
-              <p>Nostalgia e Video Games dos anos 80, 90 e 2000.</p>
-              <a href="./pages/vidas99.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <a href=""><img src="./img/jogosecafe.png" alt="imagem do podcast"></a>
-            <div class="card-info">
-              <h3>Jogos e Café</h3>
-              <p>Notícias	de games, sugestoes e um pouco de sarcasmo.</p>
-              <a href="./pages/jogasecafe.html" class="listen-podcast">Ouvir</a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="newsletter" class="email-catching">
-          <div class="form-mail">
-
-            <h2>Deseja receber nossa playlist semanal?</h2>
-            <h3>Os podcasts mais ouvidos direto no seu e-mail. </h3>
-
-            <form class="container-form" action="#">
-                <input id="email" type="email" placeholder="Seu melhor email">
-            </form>
-
-            <button id="login-button" class="form-btn">Eu quero!</button>
+            <article class="card">
+              <img src="./img/hipsters.jpg" alt="imagem do podcast" />
+              <div class="card-info">
+                <h3>Hipsters Ponto Tech</h3>
+                <p>Tecnologia, programação, design, startups e últimas tendências.</p>
+                <a href="./pages/Hipsters.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
 
           </div>
+        </section>
+
+        <section class="podcast-section">
+          <h2>UI/UX</h2>
+
+          <div class="articles-container">
+            <article class="card">
+              <img src="./img/Game UXPodcast.jpg" alt="imagem do podcast"/>
+              <div class="card-info">
+                <h3>Game Ux Podcast</h3>
+                <p>Sobre desenvolvedores de games e suas jornadas.</p>
+                <a href="./pages/GameUXPodcast.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="./img/Movimento UX.png" alt="imagem do podcast"/>
+              <div class="card-info">
+                <h3>Movimento UX</h3>
+                <p>Entrevistas com líderes de UX design no Brasil e no mundo.</p>
+                <a href="./pages/MovimentoUX.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="./img/UI Breakfast.jpg" alt="imagem do podcast"/>
+              <div class="card-info">
+                <h3>UI Breakfast</h3>
+                <p>Design de UI/UX, produtos SaaS, marketing e mais.</p>
+                <a href="./pages/UIBreakfast.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="./img/UXLegendsPodcast.jpg" alt="imagem do podcast"/>
+              <div class="card-info">
+                <h3>UX Legends</h3>
+                <p>Resolvendo problemas do usuário com foco no negócio + frontend + softskills.</p>
+                <a href="./pages/UXLegendsPodcast.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="./img/uxPodcast.png" alt="imagem do podcast"/>
+              <div class="card-info">
+                <h3>UXPodcast</h3>
+                <p>Design Digital - Negócios, tecnologia e pessoas.</p>
+                <a href="./pages/UXPodcast.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="./img/UInarrative.png" alt="imagem do podcast"/>
+              <div class="card-info">
+                <h3>UI Narrative</h3>
+                <p>Narrativas de designers, pessoas e pesquisadores.</p>
+                <a href="./pages/UINarrative.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="podcast-section">
+          <h2>Games</h2>
+
+          <div class="articles-container">
+            <article class="card">
+              <img src="./img/dash_logo-1.png" alt="imagem do podcast"/>
+              <div class="card-info">
+                <h3>No DASH</h3>
+                <p>Jogos, franquias, desenvolvedores, criação, experiência.</p>
+                <a href="./pages/jogabilidade.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="./img/Overloadr.png" alt="imagem do podcast"/>
+              <div class="card-info">
+                <h3>Overloadr</h3>
+                <p>Novidades de lançamentos e opiniões nem sempre sérias.</p>
+                <a href="./pages/motherchip.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="./img/Nautilus.png" alt="imagem do podcast"/>
+              <div class="card-info">
+                <h3>Nautilus</h3>
+                <p>Tratando games com maturidade e respeito.</p>
+                <a href="./pages/nautilus.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="./img/gamesemacao.jpg" alt="imagem do podcast"/>
+              <div class="card-info">
+                <h3>Games em ação</h3>
+                <p>Jogos na educação, gamificação, serious games, criação, cases de sucesso.</p>
+                <a href="./pages/game-acao.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="./img/99vidas.png" alt="imagem do podcast"/>
+              <div class="card-info">
+                <h3>99 Vidas</h3>
+                <p>Nostalgia e Video Games dos anos 80, 90 e 2000.</p>
+                <a href="./pages/vidas99.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="./img/jogosecafe.png" alt="imagem do podcast"/>
+              <div class="card-info">
+                <h3>Jogos e Café</h3>
+                <p>Notícias de games, sugestoes e um pouco de sarcasmo.</p>
+                <a href="./pages/jogasecafe.html" class="listen-podcast"><img src="./img/play-button.svg" alt="play button">Ouvir</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+      </sectio>
+
+      <section id="newsletter" class="email-catching">
+        <div class="form-mail">
+          <h2>Deseja receber nossa playlist semanal?</h2>
+          <h3>Os podcasts mais ouvidos direto no seu e-mail.</h3>
+
+          <form class="container-form" action="#">
+            <input id="email" type="email" placeholder="Seu melhor email" />
+          </form>
+
+          <button id="login-button" class="form-btn">Eu quero!</button>
+        </div>
       </section>
 
       <section id="contact">
-          <div class="contact-title">
-            <h2>Fale conosco</h2>
+        <div class="contact-title">
+          <h2>Fale conosco</h2>
+        </div>
+
+        <div class="container-icons">
+
+          <div class="contact-icon">
+            <img src="./img/home.png" alt="Ícone de casa" />
+            <h3>Localização</h3>
+            <p>Aproveite e venha nos visitar!</p>
+            <p>Avenida Paulista, 1000</p>
           </div>
 
-          <div class="container-icons">
-
-                <div class="contact-icon">
-                  <img src="./img/home.png" alt="Ícone de casa"/>
-                  <h3>Localização</h3>
-                  <p>Aproveite e venha nos visitar!</p>
-                  <p>Avenida Paulista, 1000</p>
-                </div>
-
-                <div class="contact-icon">
-                    <img src="./img/phone-call.png" alt="Ícone de telefone"/>
-                    <h3>Telefone</h3>
-                    <p>Ligue-nos se precisar!</p>
-                    <p>(021)99999-9999</p>
-                </div>
-
-                <div class="contact-icon">
-                    <img src="./img/mail.png" alt="Ícone de email"/>
-                    <h3>E-mail</h3>
-                    <p>Ou se preferir, mande um e-mail!</p>
-                    <p>podscastream@provedor.com</p>
-                </div>
-
+          <div class="contact-icon">
+            <img src="./img/phone-call.png" alt="Ícone de telefone" />
+            <h3>Telefone</h3>
+            <p>Ligue-nos se precisar!</p>
+            <p>(021)99999-9999</p>
           </div>
+
+          <div class="contact-icon">
+            <img src="./img/mail.png" alt="Ícone de email" />
+            <h3>E-mail</h3>
+            <p>Ou se preferir, mande um e-mail!</p>
+            <p>podscastream@provedor.com</p>
+          </div>
+
+        </div>
       </section>
-
+      
     </main>
 
     <footer>
       <h3>&copy; Podcastream 2021</h3>
     </footer>
-
   </body>
 </html>

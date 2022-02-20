@@ -3,67 +3,71 @@
 header#header-parallax {
     height: 100vh;
     width: 100%;
-    background-image: url("../img/microphone-2618102_1920-1.jpg");
+    background-image: url("../img/header-background.jpg");
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* ====================== ENTRADA SECTION =========================================== */
+/* ====================== HEADER =========================================== */
 
 .entrada {
-    width: 100%;
-    position: relative;
-    top: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 120px;
+    align-items: flex-end;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+    background-color: rgba(0, 0, 0, .3);
 }
 
 .entrada .conteudo_entrada {
-    padding: 20px;
+    padding: 1rem 1,5rem;
 }
 
 .entrada div {
     text-align: center;
-    padding: 50px;
+    padding: 2rem;
 }
 
-.playstore{
-    cursor: pointer;
+.entrada h1 {
+    display: flex;
+    font-size: 2rem;
+    color: #fffffe;
 }
 
-.entrada .conteudo_entrada div p {
-    text-align: center;
-    font-size: 40px;
-    font-family: Rajdhani, sans-serif;
-    font-weight: 800;
-    margin-top: 180px;
-    color: #FFF;
+.arrow-down {
+    width: 1rem;
+    animation: floating-arrow-down 1.5s ease infinite;
 }
 
 
 /* ====================== ARTICLES SECTION =========================================== */
 
+.main-podcast-section {
+    padding: 2rem 0;
+}
+
 .podcast-section {
-    padding: 3rem 0;
+    padding: 1.5rem 0;
 }
 
 .podcast-section h2 {
-    font-weight: 600;
     font-size: 1.5rem;
-    margin: 0 1rem;
+    margin: 0 1.5rem;
 }
 
 .articles-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 18rem;
+    height: 15rem;
     width: 100%;
+    overflow-y: visible;
     overflow: auto;
 }
 
@@ -86,10 +90,14 @@ header#header-parallax {
 .card {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: relative;
   min-width: 12rem;
   flex: 1 1 0px;
   margin: 0.1rem;
+  border-radius: .3rem;
+  overflow: hidden;
   transition: transform 500ms;
 }
 
@@ -106,10 +114,12 @@ header#header-parallax {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;
     position: absolute;
     top: 0;
+    left: 0;
     z-index: 3;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, .85);
     width: 100%;
     height: 100%;
     opacity: 0;
@@ -120,16 +130,30 @@ header#header-parallax {
     opacity: 1;
 }
 
-a.listen-podcast {
+/* a.listen-podcast {
     padding: .5rem 1rem;
     background-color: #2cb67d;
     border-radius: .3rem;
     margin: 0rem 1rem 1rem 1rem;
     transition: .25s;
+} */
+
+
+a.listen-podcast {
+    color: #7f5af0;
+    font-size: .75rem;
+    display: flex;
+    align-items: center;
+}
+
+a.listen-podcast img {
+    width: 2rem;
+    margin-right: .3rem;;
 }
 
 a.listen-podcast:hover {
-    background-color: #7f5af0;
+    color: #2cb67d;
+    transform: scale(1.2);
 }
 
 .card img {
@@ -137,10 +161,13 @@ a.listen-podcast:hover {
 }
 
 .card h3 {
+    color: #2cb67d;
     margin: 1rem;
 }
 
-.card p {
+.card-info p {
+    color: #fffffe;
+    font-size: .75rem;
     margin: 0rem 1rem 1rem 1rem;
 }
 
@@ -233,11 +260,17 @@ button#login-button.form-btn {
     width: 30px;
 }
 
+.contact-icon p {
+    font-size: .9rem;
+    padding: .2rem;
+}
+
 
 /* ====================== FOOTER =========================================== */
 
 footer {
-    padding: 1.2rem;
+    padding: 1.5rem;
+    font-size: .75rem;;
     background-color: #242629;
     display: flex;
     align-items: center;

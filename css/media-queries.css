@@ -75,9 +75,30 @@
     }
 }
 
-    /* .container-form{
-        flex-direction:column;
-    } */
+
+/* ====================== HEADER =========================================== */
+
+@media (min-width: 768px) {
+    header#header-parallax {
+        background-position: top;
+    }
+
+    .entrada {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+
+/* ====================== HOME PODCAST SECTIONS =========================================== */
+
+
+@media (min-width: 1440px) {
+
+    .articles-container {
+        height: 20rem;
+    }
+}
+
 
 /* ====================== PODCAST-PAGES =========================================== */
 
@@ -208,3 +229,8 @@
     100% { transform: translateY(0%); }
 }
 
+@keyframes floating-arrow-down {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(10px); }
+    100% { transform: translateY(0px); }
+}
