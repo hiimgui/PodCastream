@@ -15,7 +15,7 @@ Douglas https://github.com/Dougsss
 Gustavo https://github.com/GustBitencourt
 Nathalia https://github.com/nathsilvavieira
 Mariana https://github.com/marianabpacheco
-Rener https://github.com/RA-DHDev-1
+Rener https://github.com/reneralmeida
 Giovani https://github.com/giovanispaula
 Paulo https://github.com/noubarijou
 
